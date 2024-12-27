@@ -83,6 +83,11 @@
             //if (Numbers?.Length > 10)
             //    Numbers[10] = 100;
         }
+
+        //public override string ToString()
+        //{
+        //    return $"Point2D(X={X}, Y={Y})";
+        //}
         static void Main(string[] args)
         {
             #region Exception Handling
