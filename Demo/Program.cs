@@ -83,13 +83,14 @@
             //if (Numbers?.Length > 10)
             //    Numbers[10] = 100;
         }
+
         static void Main(string[] args)
         {
             #region Exception Handling
             //DoSomeCode(); 
             try
             {
-                //DoProtectiveCode();
+                DoProtectiveCode();
             }
             catch (Exception ex)
             {
@@ -157,7 +158,7 @@
             #endregion
 
             #region Permissions
-            //Employee employee = new Employee();
+            Employee employee = new Employee();
             //employee.Name = "Ali";
             //employee.Age = 20;
             //employee.Permissions = (Permissions)3;
